@@ -1,0 +1,48 @@
+CHECK VERSION OF git
+
+"git --version" to get the version of git installed
+
+ADD TO STAGING AREA
+
+"git add ." to add every change 
+"git add filename" to add a specifc filename
+
+TO CHECK THE STATUS OF THE STAGING AREA
+
+"git status" to check status
+
+COMMIT CHANGES
+
+"git commit" will prompt you to add a subject and description
+"git commit -m the_message" will commit the changes only with the subject
+
+TO CHECK THE LOGS
+
+"git log" to see the detailed logs of the commits
+"git shortlog" to see a shorter version of the logs
+
+PUSH CHANGES
+
+"git push origin branch" to push the changes to a branch
+
+PULL CHANGES
+
+"git pull origin branch" to pull the latest changes of a branch
+
+CREATE BRANCH
+
+"git checkout -b branchname" to create a new branch
+
+SWITCH TO BRANCH
+
+"git checkout branch" to switch to branch
+
+DELETE BRANCH
+
+"git branch -d branchname" to delete a branch
+
+MERGE BRANCH
+
+First you would need to switch to the branch that you need to merge to. Lets call it branch A.
+Branch B is the branch that needs to be merged to branch A. Now, since we are in branch A you 
+will need to run the command "git merge branch B". 

@@ -1,1 +1,0 @@
-Hello world! This is a general test of the github commands. The purpose of this is to solidify my knowledge of git commands!
