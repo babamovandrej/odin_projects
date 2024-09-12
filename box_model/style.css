@@ -24,3 +24,19 @@
     background-color: lightgreen;
     box-sizing: border-box;
 }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.box-three, .box-four, .box-five {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100px;
+    padding: 20px;
+    margin: 10px;
+    border: 10px solid black;
+    border-radius: 10px;
+    background-color: lime;
+}
